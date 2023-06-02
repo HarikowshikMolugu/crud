@@ -4,7 +4,7 @@ require('dotenv').config({ path: 'cred.env' });
 const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const port = 3000; //port number
 
 const createData = require('./crud oper/create');
 const retrieveData = require('./crud oper/read');
